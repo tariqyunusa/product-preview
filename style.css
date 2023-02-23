@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+     background-color: hsl(30, 38%, 92%);
+     display: grid;
+     place-items: center;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    
+    display: flex;
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+.img-_container{
+    background: url(/product-preview/images/image-product-desktop.jpg);
+    object-fit: contain;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    margin-right: 10px;
+}
+.everything{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   height: 100%;
+}
+.everything h5{
+    font-family: montserrat;
+    padding-bottom: 10px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding-top: 2rem;
+}
+.everything h3{
+    font-family: Fraunces;
+    font-size: 2.5rem;
+    color: hsl(212, 21%, 14%);
+    padding-bottom: 10px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.everything p{
+    font-size: 1rem;
+    font-family: montserrat;
+   
+    color: hsl(228, 12%, 48%);
+    margin: 30px 0;
+}
+.everything .price{
+    color: hsl(158, 36%, 37%);
+    font-family: fraunces;
+    margin-bottom: 20px;
+}
+span{
+    color: hsl(228, 12%, 48%);
+    width: 60px;
+    font-weight: 500;
+    position: relative;
+    left: 150px;
+    top: -35px;
+    font-size: 10px;
+    text-decoration: line-through;
+    padding-left: 20px;
+    font-family: Fraunces;
+}
+.a{
+    width: 90%;
+    background-color: hsl(158, 36%, 37%);
+    padding: 20px;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    justify-content: center;
+   
+}
+.a img{
+    padding-right: 15px;
+}
+.a:active{
+    background-color:hsl(158, 36%, 31%); ;
+}
+.attribution { font-size: 11px; text-align: center; font-family: montserrat;}
+
+.attribution a { color: hsl(228, 45%, 44%);
+
+}
