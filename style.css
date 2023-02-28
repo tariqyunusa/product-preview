@@ -71,7 +71,7 @@ span{
     font-weight: 500;
     position: relative;
     left: 150px;
-    top: -35px;
+    top: -60px;
     font-size: 10px;
     text-decoration: line-through;
     padding-left: 20px;
@@ -101,4 +101,48 @@ span{
 
 .attribution a { color: hsl(228, 45%, 44%);
 
+}
+@media  (max-width: 778px) {
+   
+    .container{
+        width: 310px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-_container{
+        
+        background: url('/product-preview/images/image-product-mobile.jpg'); 
+        border-radius: 10px 10px 0 0;
+        background-size: 100% 100%;
+        margin: 0;
+    }
+    .everything{
+        height: 60%;
+    }
+    .everything h3{
+        font-size: 1.8rem;
+        line-height: 20px;
+    }
+    .everything h5{
+        padding-top: 0;
+    }
+    .everything p{
+        width: 100%;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    .everything .price{
+        padding-bottom: 0;
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    span{
+        top: -15px;
+        left: 100px;
+    }
+    .a{
+        position: relative;
+        left: 15px;
+    }
 }
