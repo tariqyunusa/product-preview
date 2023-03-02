@@ -21,7 +21,7 @@ body{
 
 }
 .img-_container{
-    background: url(/product-preview/images/image-product-desktop.jpg);
+    background: url(./images/image-product-desktop.jpg);
     object-fit: contain;
     background-size: 100% 100%;
     width: 100%;
@@ -95,7 +95,7 @@ span{
     padding-right: 15px;
 }
 .a:active{
-    background-color:hsl(158, 36%, 31%); ;
+    background-color:hsl(158, 36%, 31%); 
 }
 .attribution { font-size: 11px; text-align: center; font-family: montserrat;}
 
@@ -112,7 +112,7 @@ span{
     }
     .img-_container{
         
-        background: url('/product-preview/images/image-product-mobile.jpg'); 
+        background: url('./images/image-product-mobile.jpg'); 
         border-radius: 10px 10px 0 0;
         background-size: 100% 100%;
         margin: 0;
